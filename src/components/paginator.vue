@@ -29,7 +29,11 @@
     },
     computed: {
       activeImages () {
-        return this.images.slice(this.index, this.index + 5)
+        if (this.images.length > 4) {
+          return this.images.slice(this.index, this.index + 5)
+        } else {
+          return this.images
+        }
       }
     },
     mounted () {
