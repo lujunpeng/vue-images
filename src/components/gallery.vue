@@ -24,9 +24,9 @@
     display: flex
     flex-wrap: wrap
     .wrapper
-      flex: 1
+      flex: 0
       box-sizing: border-box
-      padding: 2px 1px
+      padding: 2px 5px
       img
         display: block
         height: 100px
