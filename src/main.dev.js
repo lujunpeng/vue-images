@@ -1,4 +1,4 @@
-import 'animate.css/animate.min.css'
+// import 'animate.css/animate.min.css'
 import 'lazysizes/lazysizes.min.js'
 import Vue from 'vue'
 import lightbox from './lightbox'
